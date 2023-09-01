@@ -423,6 +423,7 @@ body {
         font-size: 20px;
         margin-bottom: 48px;
         margin-top: -20px;
+        z-index: 3;
     }
 
     .main_header {
@@ -437,6 +438,7 @@ body {
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
+       
     }
 
     .main_image_Htext {
