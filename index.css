@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:wght@400;700&display=swap');
 
 
- /* font-family: 'Dela Gothic One', cursive;
+/* font-family: 'Dela Gothic One', cursive;
 font-family: 'Roboto', sans-serif; */
 
 
@@ -12,7 +12,7 @@ body {
     background-image: url('imgs/Group2.png');
     background-position: center;
     background-repeat: no-repeat;
-    
+
 
 }
 
@@ -144,7 +144,7 @@ body {
     margin-top: -170px;
 }
 
-.play_button-mobile{
+.play_button-mobile {
     background-image: url('imgs/Button.png');
     background-position: center;
     background-size: contain;
@@ -186,9 +186,9 @@ body {
 .bullet_disc {
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
     text-align: center;
     margin-bottom: 4px;
     margin-top: 0px;
@@ -212,7 +212,7 @@ line-height: normal;
     .header_logo {
 
         margin-bottom: 40px;
-        
+
     }
 
 
@@ -231,7 +231,7 @@ line-height: normal;
 
     .main_paragraph {
         text-align: center;
-        
+
     }
 
     .main_image {
@@ -276,8 +276,8 @@ line-height: normal;
         font-size: 40px;
         font-weight: 400;
         line-height: 25px;
-        margin-top:0;
-       
+        margin-top: 0;
+
 
 
 
@@ -287,25 +287,25 @@ line-height: normal;
 
 
 @media (max-width: 900px) {
- 
-   
+
+
     .root {
         padding-top: 42px;
         position: relative;
         overflow: hidden;
-            
+
     }
-.decorative{
-    /* background-image: url('imgs/Decorative.png'); sssssssssssssssssssssssssssssssssssssssssssss */
-    background-position: left;
-    z-index: -1;
-    position: absolute;
-    width: 150vw;
-    height: 150vh;
-    background-size: contain;
-    margin-top: -150px;
-   
-}
+
+    .decorative {
+        background-position: left;
+        z-index: -1;
+        position: absolute;
+        width: 150vw;
+        height: 150vh;
+        background-size: contain;
+        margin-top: -150px;
+
+    }
 
 
     .header {
@@ -412,8 +412,8 @@ line-height: normal;
         height: auto;
         margin-bottom: 24px;
         margin-right: 0px;
-     
-        
+
+
     }
 
     .bullet_img {
@@ -431,7 +431,7 @@ line-height: normal;
         letter-spacing: 0em;
         text-align: center;
         min-width: 227px;
-        
+
 
     }
 
@@ -445,7 +445,7 @@ line-height: normal;
         font-weight: 400;
         line-height: normal;
         margin-top: 14px;
-      
+
         z-index: 3;
 
     }
@@ -497,7 +497,7 @@ line-height: normal;
         background-size: contain;
         background-repeat: no-repeat;
         margin-top: -45px;
-       
+
     }
 
     .main_image_Htext {
@@ -523,7 +523,7 @@ line-height: normal;
 
     }
 
-    .play_button-mobile{
+    .play_button-mobile {
         display: block;
         width: 161px;
         height: 62px;
@@ -533,9 +533,9 @@ line-height: normal;
         font-weight: 400;
         line-height: normal;
         margin-top: 14px;
-      
+
         z-index: 3;
-       
+
     }
 
 }
