@@ -407,6 +407,9 @@ line-height: normal;
         width: 319px;
         height: auto;
         margin-bottom: 24px;
+        margin-right: 0px;
+     
+        
     }
 
     .bullet_img {
@@ -423,6 +426,8 @@ line-height: normal;
         line-height: 26px;
         letter-spacing: 0em;
         text-align: center;
+        min-width: 227px;
+        
 
     }
 
