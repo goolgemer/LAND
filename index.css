@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Goblin+One&family=Hanuman:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:wght@400;700&display=swap');
+
+
+ /* font-family: 'Dela Gothic One', cursive;
+font-family: 'Roboto', sans-serif; */
+
 
 
 
 body {
     margin: 0;
-    font-family: 'Chakra Petch', sans-serif;
-    font-family: 'Hanuman', serif;
     background-image: url('imgs/Group2.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -47,7 +50,7 @@ body {
 
 .main_header {
 
-    font-family: 'Goblin One', cursive;
+    font-family: 'Dela Gothic One', cursive;
     font-size: 64px;
     font-weight: 400;
     line-height: 80px;
@@ -59,7 +62,7 @@ body {
 }
 
 .main_paragraph {
-    font-family: 'Hanuman', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 47px;
@@ -86,7 +89,7 @@ body {
     position: absolute;
     top: 200px;
     left: 25px;
-    font-family: Goblin One;
+    font-family: 'Dela Gothic One', cursive;
     font-size: 32px;
     font-weight: 400;
     line-height: 40px;
@@ -100,7 +103,7 @@ body {
 
 .main_image_Ptext {
     position: absolute;
-    font-family: 'Hanuman', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 23px;
     letter-spacing: 0em;
@@ -130,7 +133,7 @@ body {
     height: 119px;
     background-repeat: no-repeat;
     cursor: pointer;
-    font-family: Goblin One;
+    font-family: 'Dela Gothic One', cursive;
     font-size: 40px;
     font-weight: 400;
     line-height: 50px;
@@ -149,7 +152,7 @@ body {
     height: 119px;
     background-repeat: no-repeat;
     cursor: pointer;
-    font-family: Goblin One;
+    font-family: 'Dela Gothic One', cursive;
     font-size: 40px;
     font-weight: 400;
     line-height: 50px;
@@ -179,11 +182,11 @@ body {
 }
 
 .bullet_disc {
-    font-family: 'Hanuman', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
-    font-weight: 700;
-    line-height: 32px;
-    letter-spacing: 0em;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
     text-align: center;
     margin-bottom: 4px;
     margin-top: 0px;
@@ -244,7 +247,7 @@ body {
         font-weight: 400;
         line-height: 25px;
         top: 100px;
-        left: -25px;
+        left: 20px;
 
 
     }
@@ -354,6 +357,7 @@ body {
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
+        margin-top: -45px;
     }
 
     .main_image_Htext {
@@ -362,7 +366,7 @@ body {
         font-weight: 400;
         line-height: 25px;
         top: 130px;
-        left: -25px;
+        left: 20px;
 
 
     }
@@ -388,6 +392,9 @@ body {
     .play_button {
         width: 164px;
         height: 64px;
+        font-size: 20px;
+        display: none;
+        font-family: 'Dela Gothic One', cursive;
     }
 
     .bullets {
@@ -419,8 +426,18 @@ body {
 
     }
 
-    .play_button {
+    .play_button-mobile {
+        display: block;
+        width: 161px;
+        height: 62px;
+        font-family: 'Dela Gothic One', cursive;
         font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 14px;
+      
+        z-index: 3;
 
     }
 }
@@ -480,7 +497,7 @@ body {
         font-weight: 400;
         line-height: 25px;
         top: 130px;
-        left: -25px;
+        left: 20px;
 
 
     }
@@ -501,7 +518,7 @@ body {
         display: block;
         width: 161px;
         height: 62px;
-        font-family: Goblin One;
+        font-family: 'Dela Gothic One', cursive;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
