@@ -12,7 +12,7 @@ body {
     background-image: url('imgs/Group2.png');
     background-position: center;
     background-repeat: no-repeat;
-    /* overflow: hidden; */
+    
 
 }
 
@@ -31,10 +31,11 @@ body {
 }
 
 .header_logo {
-    width: 196px;
-    height: 91px;
+    width: 139px;
+    height: 71px;
     margin: 0;
     padding: 0;
+    margin-bottom: -70px;
 }
 
 
@@ -76,8 +77,8 @@ body {
 
 
 .main_image {
-    min-width: 570px;
-    height: 690px;
+    min-width: 590px;
+    height: 710px;
     position: relative;
     background-image: url('imgs/Main_image.png');
     background-position: center;
@@ -140,6 +141,7 @@ body {
     letter-spacing: 0em;
     color: white;
     text-align: center;
+    margin-top: -170px;
 }
 
 .play_button-mobile{
@@ -210,6 +212,7 @@ line-height: normal;
     .header_logo {
 
         margin-bottom: 40px;
+        
     }
 
 
@@ -273,6 +276,7 @@ line-height: normal;
         font-size: 40px;
         font-weight: 400;
         line-height: 25px;
+        margin-top:0;
        
 
 
