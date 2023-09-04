@@ -88,7 +88,7 @@ body {
 .main_image_Htext {
     position: absolute;
     top: 200px;
-    left: 25px;
+    left: 35px;
     font-family: 'Dela Gothic One', cursive;
     font-size: 32px;
     font-weight: 400;
@@ -109,7 +109,7 @@ body {
     letter-spacing: 0em;
     text-align: center;
     top: 288px;
-    left: 35px;
+    left: 40px;
     margin-top: 20px;
 
 }
